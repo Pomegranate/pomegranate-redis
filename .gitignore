@@ -1,0 +1,11 @@
+/node_modules/*
+.nyc_output
+/coverage
+.idea/
+*.off/
+*.sqlite
+*.log
+.DS_Store
+env.json
+/scratch
+derp.js
