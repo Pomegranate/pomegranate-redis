@@ -1,0 +1,16 @@
+{
+  "name": "pomegranate-redis",
+  "version": "0.0.0",
+  "description": "Provides Redis support for the Pomegranate framwork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Plugin",
+    "Redis"
+  ],
+  "author": "Jim <monstertke@paperelectron.com> (http://paperelectron.com/)",
+  "license": "MIT"
+}
