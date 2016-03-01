@@ -1,6 +1,6 @@
 {
   "name": "pomegranate-redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides Redis support for the Pomegranate framwork.",
   "main": "index.js",
   "scripts": {
