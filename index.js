@@ -29,10 +29,14 @@ exports.metadata = {
 
 exports.plugin = {
   load: function(inject, loaded) {
+    var self = this;
     var serverHost = this.options.host;
     var serverPort = this.options.port;
     var clientOptions = this.options.clientOptions;
     client = redis.createClient(serverPort, serverHost, clientOptions);
+    client.on('error', function(err){
+      self.lateError(err)
+    })
     client.on('ready', function(){
       loaded(null, client);
     })
