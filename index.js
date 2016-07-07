@@ -21,8 +21,7 @@ exports.options = {
 };
 
 exports.metadata = {
-  name: 'Redis',
-  layer: 'data',
+  name: 'RedisCore',
   type: 'service',
   param: 'Redis'
 }
